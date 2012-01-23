@@ -26,6 +26,11 @@ HKR,,Icon,,-1
 %ProviderName% = Google, NTx86, NTamd64
 
 [Google.NTx86]
+; FUJITSU ARROWS TAB(F-01D)
+%SingleAdbInterface%        = USB_Install, USB\VID_04C5&PID_12B0
+%CompositeAdbInterface%     = USB_Install, USB\VID_04C5&PID_12B0&MI_00
+%CompositeAdbInterface%     = USB_Install, USB\VID_04C5&PID_12B0&MI_01
+
 ; CASIO G'zOne(IS11CA)
 %SingleAdbInterface%        = USB_Install, USB\VID_0409&PID_0391
 %CompositeAdbInterface%     = USB_Install, USB\VID_0409&PID_0391&MI_01
@@ -54,6 +59,11 @@ HKR,,Icon,,-1
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E22&MI_01
 
 [Google.NTamd64]
+; FUJITSU ARROWS TAB(F-01D)
+%SingleAdbInterface%        = USB_Install, USB\VID_04C5&PID_12B0
+%CompositeAdbInterface%     = USB_Install, USB\VID_04C5&PID_12B0&MI_00
+%CompositeAdbInterface%     = USB_Install, USB\VID_04C5&PID_12B0&MI_01
+
 ; CASIO G'zOne(IS11CA)
 %SingleAdbInterface%        = USB_Install, USB\VID_0409&PID_0391
 %CompositeAdbInterface%     = USB_Install, USB\VID_0409&PID_0391&MI_01
