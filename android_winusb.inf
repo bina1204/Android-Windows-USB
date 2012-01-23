@@ -26,6 +26,14 @@ HKR,,Icon,,-1
 %ProviderName% = Google, NTx86, NTamd64
 
 [Google.NTx86]
+; Sony Tablet P
+%SingleAdbInterface%        = USB_Install, USB\VID_054C&PID_04D2
+%CompositeAdbInterface%     = USB_Install, USB\VID_054C&PID_04D2&MI_01
+
+; Sony Tablet S
+%SingleAdbInterface%        = USB_Install, USB\VID_054C&PID_05B4
+%CompositeAdbInterface%     = USB_Install, USB\VID_054C&PID_05B4&MI_01
+
 ; FUJITSU ARROWS TAB(F-01D)
 %SingleAdbInterface%        = USB_Install, USB\VID_04C5&PID_12B0
 %CompositeAdbInterface%     = USB_Install, USB\VID_04C5&PID_12B0&MI_00
@@ -34,7 +42,6 @@ HKR,,Icon,,-1
 ; CASIO G'zOne(IS11CA)
 %SingleAdbInterface%        = USB_Install, USB\VID_0409&PID_0391
 %CompositeAdbInterface%     = USB_Install, USB\VID_0409&PID_0391&MI_01
-
 
 ; HTC EVO 3D(ISW12HT)
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0CBA
@@ -59,6 +66,14 @@ HKR,,Icon,,-1
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E22&MI_01
 
 [Google.NTamd64]
+;Sony Tablet P
+%SingleAdbInterface%        = USB_Install, USB\VID_054C&PID_04D2
+%CompositeAdbInterface%     = USB_Install, USB\VID_054C&PID_04D2&MI_01
+
+;Sony Tablet S
+%SingleAdbInterface%        = USB_Install, USB\VID_054C&PID_05B4
+%CompositeAdbInterface%     = USB_Install, USB\VID_054C&PID_05B4&MI_01
+
 ; FUJITSU ARROWS TAB(F-01D)
 %SingleAdbInterface%        = USB_Install, USB\VID_04C5&PID_12B0
 %CompositeAdbInterface%     = USB_Install, USB\VID_04C5&PID_12B0&MI_00
