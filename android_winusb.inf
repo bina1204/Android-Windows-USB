@@ -26,6 +26,10 @@ HKR,,Icon,,-1
 %ProviderName% = Google, NTx86, NTamd64
 
 [Google.NTx86]
+; KYOCERA DIGNO(ISW11K)
+%SingleAdbInterface%        = USB_Install, USB\VID_0482&PID_0553
+%CompositeAdbInterface%     = USB_Install, USB\VID_0482&PID_0553&MI_01
+
 ; Sony Tablet P
 %SingleAdbInterface%        = USB_Install, USB\VID_054C&PID_04D2
 %CompositeAdbInterface%     = USB_Install, USB\VID_054C&PID_04D2&MI_01
@@ -66,11 +70,15 @@ HKR,,Icon,,-1
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E22&MI_01
 
 [Google.NTamd64]
-;Sony Tablet P
+; KYOCERA DIGNO(ISW11K)
+%SingleAdbInterface%        = USB_Install, USB\VID_0482&PID_0553
+%CompositeAdbInterface%     = USB_Install, USB\VID_0482&PID_0553&MI_01
+
+; Sony Tablet P
 %SingleAdbInterface%        = USB_Install, USB\VID_054C&PID_04D2
 %CompositeAdbInterface%     = USB_Install, USB\VID_054C&PID_04D2&MI_01
 
-;Sony Tablet S
+; Sony Tablet S
 %SingleAdbInterface%        = USB_Install, USB\VID_054C&PID_05B4
 %CompositeAdbInterface%     = USB_Install, USB\VID_054C&PID_05B4&MI_01
 
