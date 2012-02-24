@@ -26,6 +26,10 @@ HKR,,Icon,,-1
 %ProviderName% = Google, NTx86, NTamd64
 
 [Google.NTx86]
+; FUJITSU REGZA Phone(T-01D)
+%SingleAdbInterface%        = USB_Install, USB\VID_04C5&PID_12EF
+%CompositeAdbInterface%     = USB_Install, USB\VID_04C5&PID_12EF&MI_01
+
 ; KYOCERA DIGNO(ISW11K)
 %SingleAdbInterface%        = USB_Install, USB\VID_0482&PID_0553
 %CompositeAdbInterface%     = USB_Install, USB\VID_0482&PID_0553&MI_01
@@ -70,6 +74,10 @@ HKR,,Icon,,-1
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E22&MI_01
 
 [Google.NTamd64]
+; FUJITSU REGZA Phone(T-01D)
+%SingleAdbInterface%        = USB_Install, USB\VID_04C5&PID_12EF
+%CompositeAdbInterface%     = USB_Install, USB\VID_04C5&PID_12EF&MI_01
+
 ; KYOCERA DIGNO(ISW11K)
 %SingleAdbInterface%        = USB_Install, USB\VID_0482&PID_0553
 %CompositeAdbInterface%     = USB_Install, USB\VID_0482&PID_0553&MI_01
