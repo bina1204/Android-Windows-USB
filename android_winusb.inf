@@ -26,6 +26,10 @@ HKR,,Icon,,-1
 %ProviderName% = Google, NTx86, NTamd64
 
 [Google.NTx86]
+; SHARP AQUOS PHONE(IS11SH)
+%SingleAdbInterface%        = USB_Install, USB\VID_04DD&PID_944D
+%CompositeAdbInterface%     = USB_Install, USB\VID_04DD&PID_944D&MI_01
+
 ; Samsunb Galaxy Tab 10.1(SC-01D)
 %SingleAdbInterface%        = USB_Install, USB\VID_04E8&PID_6860
 %CompositeAdbInterface%     = USB_Install, USB\VID_04E8&PID_6860&MI_01
@@ -81,6 +85,10 @@ HKR,,Icon,,-1
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E22&MI_01
 
 [Google.NTamd64]
+; SHARP AQUOS PHONE(IS11SH)
+%SingleAdbInterface%        = USB_Install, USB\VID_04DD&PID_944D
+%CompositeAdbInterface%     = USB_Install, USB\VID_04DD&PID_944D&MI_01
+
 ; Samsunb Galaxy Tab 10.1(SC-01D)
 %SingleAdbInterface%        = USB_Install, USB\VID_04E8&PID_6860
 %CompositeAdbInterface%     = USB_Install, USB\VID_04E8&PID_6860&MI_01
